@@ -1,0 +1,10 @@
+function dot_product (var ps,var v1 , var v2  ): integer 
+    var n: integer
+Begin  
+n:=0;
+
+FOR i FROM 0 TO n- 1 STEP 1  DO
+ps  = ps + vect_v1[i] * vect_v2[i];
+return ps ;
+write("dotProduct is : " vect_v1; vect_v2; );
+
